@@ -1,15 +1,15 @@
 <template>
   <div class="component">
-    <Container />
+    <HomeTemplate />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Container } from '@/components/bosons'
+import { HomeTemplate } from '@/components/templates'
 
 export default defineComponent({
-  components: { Container }
+  components: { HomeTemplate }
 })
 </script>
 
